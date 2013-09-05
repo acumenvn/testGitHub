@@ -36,6 +36,7 @@
 
 - (void) catchMyBreath {
     NSLog(@"\nCatching my breath plz\n");
+    NSLog(@"");
 }
 
 @end

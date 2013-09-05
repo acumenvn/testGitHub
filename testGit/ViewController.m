@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction) btnClick:(id)sender {
+    UIAlertView *pAlertView = [[UIAlertView alloc] initWithTitle:@"MESSAGE" message:@"TITLE" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    
+    [pAlertView show];
+    [pAlertView release];
+}
+
 @end
